@@ -21,3 +21,7 @@ Next.js & GitHub Pages
 ## Links importantes
 
 [Página pessoal do professor para a matéria](http://paginapessoal.utfpr.edu.br/cesarbenitez/oficina-de-integracao-ele64-engenharia-eletronica)
+
+## TODO
+
+- Checar status do blog no Lighthouse
