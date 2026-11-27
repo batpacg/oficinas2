@@ -1,0 +1,10 @@
+[Unit]
+Description=Server para o Eco Sorter
+
+[Service]
+Type=forking
+Restart=always
+ExecStart=/home/ecosorter/server/run.sh
+
+[Install]
+WantedBy=multi-user.target
