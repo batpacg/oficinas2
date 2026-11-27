@@ -1,0 +1,11 @@
+[project]
+name = "rec"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = "==3.9.25"
+dependencies = [
+    "ai-edge-litert>=2.1.0",
+    "opencv-python-headless>=5.1.0.95",
+    "tensorflow>=2.20.0",
+]

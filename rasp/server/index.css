@@ -1,0 +1,39 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg00: #1d2021;
+    --bg: #282828;
+    --fg: #fbf1c7;
+}
+
+html,
+body  {
+    min-height: 100vh;
+}
+
+body {
+    font-family: monospace, system-ui, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background: var(--bg);
+    color: var(--fg);
+}
+
+header {
+    padding: 1rem;
+    border-bottom: 1px solid var(--fg);
+    text-align: center;
+    background: var(--bg00);
+}
+
+main {
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid var(--fg);
+    flex-grow: 1;
+    background: var(--bg00);
+}
