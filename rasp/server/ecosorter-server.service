@@ -3,8 +3,8 @@ Description=Server para o Eco Sorter
 
 [Service]
 Type=forking
-Restart=always
+Restart=on-failure
 ExecStart=/home/ecosorter/server/run.sh
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=default.target
